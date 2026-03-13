@@ -1,16 +1,3 @@
-/*
-  IMU Capture
-  This example uses the on-board IMU to start reading acceleration and gyroscope
-  data from on-board IMU and prints it to the Serial Monitor for one second
-  when the significant motion is detected.
-  You can also use the Serial Plotter to graph the data.
-  The circuit:
-  - Arduino Nano 33 BLE or Arduino Nano 33 BLE Sense board.
-  Created by Don Coleman, Sandeep Mistry
-  Modified by Dominic Pajak, Sandeep Mistry
-  This example code is in the public domain.
-*/
-
 #include <Arduino_LSM9DS1.h>
 #include <math.h>
 #include <arduinoFFT.h>
@@ -19,6 +6,8 @@
 const float accelerationThreshold = 2.5; // threshold of significant in G's
 const int numSamples = 128;
 int samplesRead = numSamples;
+// the following tracks which gesture iteration we are in
+int sampleCount = 1;
 
 // Buffer to hold 1 window of data for 6 axes (aX, aY, aZ, gX, gY, gZ)
 float windowData[6][numSamples];
@@ -41,29 +30,32 @@ void setup() {
   }
 
   // Print the header at startup
-  Serial.println("feature, aX, aY, aZ, gX, gY, gZ");
+  Serial.println("sample, feature, aX, aY, aZ, gX, gY, gZ");
 }
 
 void loop() {
   float aX, aY, aZ, gX, gY, gZ;
 
+  // Temporary
+  samplesRead = 0;
+
   // wait for significant motion
-  while (samplesRead == numSamples) {
-    if (IMU.accelerationAvailable()) {
-      // read the acceleration data
-      IMU.readAcceleration(aX, aY, aZ);
+  // while (samplesRead == numSamples) {
+  //   if (IMU.accelerationAvailable()) {
+  //     // read the acceleration data
+  //     IMU.readAcceleration(aX, aY, aZ);
 
-      // sum up the absolutes to detect movement regardless of direction
-      float aSum = fabs(aX) + fabs(aY) + fabs(aZ);
+  //     // sum up the absolutes to detect movement regardless of direction
+  //     float aSum = fabs(aX) + fabs(aY) + fabs(aZ);
 
-      // check if it's above the threshold
-      if (aSum >= accelerationThreshold) {
-        // reset the sample read count
-        samplesRead = 0;
-        break;
-      }
-    }
-  }
+  //     // check if it's above the threshold
+  //     if (aSum >= accelerationThreshold) {
+  //       // reset the sample read count
+  //       samplesRead = 0;
+  //       break;
+  //     }
+  //   }
+  // }
 
   // DATA COLLECTION
   // check if the all the required samples have been read since
@@ -145,7 +137,11 @@ void loop() {
   const char* featureNames[6] = {"Mean", "Std", "RMS", "Min", "Max", "PSD"};
   // Print as CSV format
   for (int feat = 0; feat < 6; feat++) {
-    // print feature name first
+    // print sample number first
+    Serial.print(sampleCount);
+    Serial.print(", ");
+
+    // print feature name 
     Serial.print(featureNames[feat]);
     Serial.print(", ");
     // Print 6 axis values for this feature
@@ -159,6 +155,8 @@ void loop() {
     }
     Serial.println(); // Move to the next feature row
   }
-  // Print an empty line to cleanly separate this gesture from next one
-  Serial.println();
+
+  sampleCount++;
+  // Delay before next sample
+  delay(2000);
 }
