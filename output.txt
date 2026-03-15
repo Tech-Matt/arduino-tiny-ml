@@ -1,0 +1,490 @@
+Rest: 0.999475
+Left-right: 0.000525
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.999297
+Left-right: 0.000702
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 1.000000
+Circle: 0.000000
+Prediction: 
+Down-Up
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.999996
+Circle: 0.000004
+Prediction: 
+Down-Up
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000563
+Circle: 0.999437
+Prediction: 
+Circle
+
+Rest: 0.930694
+Left-right: 0.067365
+Down-Up: 0.000001
+Circle: 0.001940
+Prediction: 
+Rest
+
+Rest: 0.006808
+Left-right: 0.001391
+Down-Up: 0.000298
+Circle: 0.991503
+Prediction: 
+Circle
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.997593
+Left-right: 0.002405
+Down-Up: 0.000000
+Circle: 0.000002
+Prediction: 
+Rest
+
+Rest: 0.999326
+Left-right: 0.000673
+Down-Up: 0.000000
+Circle: 0.000001
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000000
+Circle: 1.000000
+Prediction: 
+Circle
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000000
+Circle: 1.000000
+Prediction: 
+Circle
+
+Rest: 0.995256
+Left-right: 0.004569
+Down-Up: 0.000000
+Circle: 0.000175
+Prediction: 
+Rest
+
+Rest: 0.000019
+Left-right: 0.033608
+Down-Up: 0.000002
+Circle: 0.966371
+Prediction: 
+Circle
+
+Rest: 0.998461
+Left-right: 0.001536
+Down-Up: 0.000000
+Circle: 0.000003
+Prediction: 
+Rest
+
+Rest: 0.998762
+Left-right: 0.001234
+Down-Up: 0.000000
+Circle: 0.000004
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000047
+Circle: 0.999953
+Prediction: 
+Circle
+
+Rest: 0.000000
+Left-right: 0.000007
+Down-Up: 0.000002
+Circle: 0.999992
+Prediction: 
+Circle
+
+Rest: 0.000461
+Left-right: 0.969055
+Down-Up: 0.000000
+Circle: 0.030484
+Prediction: 
+Left-right
+
+Rest: 0.001562
+Left-right: 0.998401
+Down-Up: 0.000000
+Circle: 0.000037
+Prediction: 
+Left-right
+
+Rest: 0.998229
+Left-right: 0.001771
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.998062
+Left-right: 0.001938
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.040235
+Left-right: 0.959759
+Down-Up: 0.000000
+Circle: 0.000006
+Prediction: 
+Left-right
+
+Rest: 0.989278
+Left-right: 0.010711
+Down-Up: 0.000000
+Circle: 0.000012
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000003
+Circle: 0.999997
+Prediction: 
+Circle
+
+Rest: 0.992555
+Left-right: 0.007441
+Down-Up: 0.000000
+Circle: 0.000005
+Prediction: 
+Rest
+
+Rest: 0.993347
+Left-right: 0.006651
+Down-Up: 0.000000
+Circle: 0.000002
+Prediction: 
+Rest
+
+Rest: 0.829410
+Left-right: 0.170573
+Down-Up: 0.000000
+Circle: 0.000017
+Prediction: 
+Rest
+
+Rest: 0.954897
+Left-right: 0.045100
+Down-Up: 0.000000
+Circle: 0.000003
+Prediction: 
+Rest
+
+Rest: 0.791592
+Left-right: 0.208370
+Down-Up: 0.000000
+Circle: 0.000038
+Prediction: 
+Rest
+
+Rest: 0.944132
+Left-right: 0.055865
+Down-Up: 0.000000
+Circle: 0.000003
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000009
+Circle: 0.999991
+Prediction: 
+Circle
+
+Rest: 0.926287
+Left-right: 0.073713
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.000158
+Circle: 0.999842
+Prediction: 
+Circle
+
+Rest: 0.938898
+Left-right: 0.060375
+Down-Up: 0.000001
+Circle: 0.000727
+Prediction: 
+Rest
+
+Rest: 0.009494
+Left-right: 0.990506
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.531048
+Left-right: 0.468952
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.950615
+Left-right: 0.049385
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.404450
+Left-right: 0.595550
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.101920
+Left-right: 0.898080
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.595827
+Circle: 0.404173
+Prediction: 
+Down-Up
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.731746
+Circle: 0.268254
+Prediction: 
+Down-Up
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.966216
+Circle: 0.033784
+Prediction: 
+Down-Up
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 0.999999
+Down-Up: 0.000000
+Circle: 0.000001
+Prediction: 
+Left-right
+
+Rest: 0.706857
+Left-right: 0.293143
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 1.000000
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Left-right
+
+Rest: 0.773042
+Left-right: 0.226958
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.998980
+Left-right: 0.001020
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.998953
+Left-right: 0.001047
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.998921
+Left-right: 0.001079
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.000126
+Left-right: 0.129311
+Down-Up: 0.000003
+Circle: 0.870560
+Prediction: 
+Circle
+
+Rest: 0.994859
+Left-right: 0.005141
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.995496
+Left-right: 0.004504
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.996707
+Left-right: 0.003293
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.996761
+Left-right: 0.003239
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.996655
+Left-right: 0.003345
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000000
+Down-Up: 0.935609
+Circle: 0.064391
+Prediction: 
+Down-Up
+
+Rest: 0.000000
+Left-right: 0.999979
+Down-Up: 0.000000
+Circle: 0.000021
+Prediction: 
+Left-right
+
+Rest: 0.000000
+Left-right: 0.003144
+Down-Up: 0.000000
+Circle: 0.996856
+Prediction: 
+Circle
+
+Rest: 0.977828
+Left-right: 0.022172
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.958487
+Left-right: 0.041513
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.999962
+Left-right: 0.000024
+Down-Up: 0.000001
+Circle: 0.000013
+Prediction: 
+Rest
+
+Rest: 0.999990
+Left-right: 0.000010
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
+Rest: 0.000000
+Left-right: 0.000001
+Down-Up: 0.000002
+Circle: 0.999996
+Prediction: 
+Circle
+
+Rest: 0.625075
+Left-right: 0.374925
+Down-Up: 0.000000
+Circle: 0.000000
+Prediction: 
+Rest
+
