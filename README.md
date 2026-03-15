@@ -20,11 +20,50 @@ In our implementation, we considered four types of movements:
 - Up-Down
 - Circle 
 
-The measurements are stored in the [training_data](training_data) filder. 
+The measurements are stored in the [training_data](training_data) folder.
 
-During training and inference, the Arduino board is handled with the usb port facing upwards and the chips of the board facing right. 
+> [!NOTE]
+> During training and inference, the Arduino board is handled with the usb port facing upwards and the chips of the board facing right. 
+
 # Neural Network training 
 The [colab notebook](GesturesRecognitionTraining.ipynb) contains the steps for the creation and validation of the model automatically using its confusion matrix. 
 
+The results that we obtained indicates a low amount of false positives/false negatives and good accuracy levels. 
+<img src="docs/confusion_matrix.png" width="512">
+
+```
+Total accuracy: 0.975
+
+Per class specs: 
+-> Rest
+	 accuracy 1.0
+	 true positive rate 1.0
+	 true negative rate 1.0
+	 positive predictive value 1.0
+	 f1 score 1.0 
+-> Left-right
+	 accuracy 0.975
+	 true positive rate 1.0
+	 true negative rate 1.0
+	 positive predictive value 0.9
+	 f1 score 0.9473684210526315 
+-> Down-Up
+	 accuracy 1.0
+	 true positive rate 1.0
+	 true negative rate 1.0
+	 positive predictive value 1.0
+	 f1 score 1.0 
+-> Circle
+	 accuracy 0.975
+	 true positive rate 0.92
+	 true negative rate 0.9649122807017544
+	 positive predictive value 1.0
+	 f1 score 0.9583333333333334 
+```
+
 # Inference 
-The arduino project [*training_data*](arduino/inference/inference.ino) contains the source code for the inference of the model. 
+In order to evaluate the model in real time we provided an arduino project [*training_data*](arduino/inference/inference.ino) with the source code for the inference. 
+
+
+
+
